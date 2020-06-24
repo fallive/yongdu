@@ -3,7 +3,7 @@ h1, h2, h3 {
 }
 
 html, body {
-    overflow-y: scroll;
+    overflow-y: auto;
     overflow-x: auto;
     height: 100%;
 }
