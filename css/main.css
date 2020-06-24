@@ -65,6 +65,7 @@ navbar ul{
   text-align:center; */
 }
 
+/*
 navbar li{
   float: left;
   display:inline;
@@ -81,7 +82,6 @@ navbar li a {
 navbar li p {
     display: block;
     font-weight: bold;
-    /* color: white; */
     text-align: center;
     padding: 0px 16px;
     text-decoration: none;
@@ -99,7 +99,7 @@ navbar li a:hover:not(.active) {
 .notes ul {
   list-style-type: circle;
 }
-
+*/
 
 li::before {
   content: "";
@@ -112,6 +112,7 @@ li::before {
   transition: 0.2s all linear;
 }
 
+/*
 li:hover::before {
   width: 100%;
   left: 0;
@@ -120,6 +121,7 @@ li:hover::before {
 li:hover ~ li::before {
   left: 0;
 }
+*/
 
 .bottomcenter
 {
