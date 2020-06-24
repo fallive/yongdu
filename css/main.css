@@ -8,40 +8,6 @@ html, body {
     height: 100%;
 }
 
-/* html {
-  background: lightgrey;
-  height: 100%;
-  overflow: hidden;
-}
-body {
-  height: 100%;
-  background: whitesmoke;
-  overflow: scroll;
-  width: 80%;
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 3em;
-  font: 100%/1.4 serif;
-  border: 1px solid rgba(0,0,0,0.25)
-}
-p {
-  margin: 0 0 1.5em;
-}
-
-body::-webkit-scrollbar {
-    width: 1em;
-}
- 
-body::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-}
- 
-body::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
-  outline: 1px solid slategrey;
-}
-*/
-
 body {
   margin: 40px auto;
   max-width: 700px;
@@ -55,52 +21,6 @@ body {
   background-color: #FFFFE0;/*#E6E6FA; #E0FFFF; #FFFFF0; #FFFAF0;*/
 }
 
-navbar ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 5px 15px;
-  overflow: auto;
-  background-color: #633517;
-  /* display: inline-block;
-  text-align:center; */
-}
-
-/*
-navbar li{
-  float: left;
-  display:inline;
-}
-
-navbar li a {
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    display:inline-block;
-}
-
-navbar li p {
-    display: block;
-    font-weight: bold;
-    text-align: center;
-    padding: 0px 16px;
-    text-decoration: none;
-}
-
-navbar li a.active {
-    background-color: #633517;
-    color: white;
-}
-
-navbar li a:hover:not(.active) {
-    background-color: #8B4513;
-}
-
-.notes ul {
-  list-style-type: circle;
-}
-*/
-
 li::before {
   content: "";
   position: absolute;
@@ -112,17 +32,6 @@ li::before {
   transition: 0.2s all linear;
 }
 
-/*
-li:hover::before {
-  width: 100%;
-  left: 0;
-}
-
-li:hover ~ li::before {
-  left: 0;
-}
-*/
-
 .bottomcenter
 {
 position: fixed;
@@ -132,4 +41,5 @@ right: 0;
 height: 85px;
 text-align: center;
 border-top: 1px solid black;
+background-color: #808080;/*#E6E6FA; #E0FFFF; #FFFFF0; #FFFAF0;*/
 }
