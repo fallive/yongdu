@@ -86,3 +86,10 @@ li:hover::before {
 li:hover ~ li::before {
   left: 0;
 }
+
+.wordWrap {
+    word-wrap: break-word;
+    white-space: -moz-pre-wrap;
+    white-space: pre-wrap;
+}
+
